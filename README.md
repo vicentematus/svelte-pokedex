@@ -29,4 +29,5 @@ npm run build
 [ ] Agregar imagenes en vez de colores a los tipos de pokemon
 [ ] Agregar iconos en vez de texto a los tipos de stats
 [ ] Agregar SSR a la página de inicio
-[ ] Agregar iconografia
+[ ] Agregar font de 8 BIT
+[ ] Contribuir a fontsource.org

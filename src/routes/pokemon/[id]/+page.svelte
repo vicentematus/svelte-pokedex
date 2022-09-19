@@ -19,7 +19,9 @@
 	<h1 class="text-center text-3xl font-semibold text-white ">{capitalizeFirstLetter(name)}</h1>
 	<div class="space-x-2">
 		{#each modifiedTypes as type (type.slot)}
-			<span class={`shadow-md px-2 py-2 ${type.color} text-white  rounded-lg font-semibold uppercase`}>
+			<span
+				class={`shadow-md px-2 py-2 ${type.color} text-white  rounded-lg font-semibold uppercase`}
+			>
 				{type?.type?.name}
 			</span>
 		{/each}

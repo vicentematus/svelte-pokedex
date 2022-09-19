@@ -8,7 +8,7 @@ function capitalizeFirstLetter(str: string) {
 	return capitalized;
 }
 const fetchPokemon = async () => {
-	const url = `https://pokeapi.co/api/v2/pokemon?limit=100`;
+	const url = `https://pokeapi.co/api/v2/pokemon?limit=1000`;
 	const res = await fetch(url);
 	const data = await res.json();
 	const loadedPokemon = data.results.map((data: any, index: any) => ({
