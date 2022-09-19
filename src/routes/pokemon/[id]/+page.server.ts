@@ -48,26 +48,85 @@ const TYPES_ICONS = [
 		color: 'bg-blue-700'
 	},
 	{
-		name: 'attack',
-		icon: 'AttackICON'
+		name: 'fire',
+		icon: 'img/types/water.webp',
+		color: 'bg-red-700'
 	},
 	{
-		name: 'defense',
-		icon: 'defenseIcon'
-	},
-
-	{
-		name: 'special-attack',
-		icon: 'defenseIcon'
+		name: 'poison',
+		icon: 'img/types/water.webp',
+		color: 'bg-purple-700'
 	},
 
 	{
-		name: 'special-defense',
-		icon: 'defenseIcon'
+		name: 'bug',
+		icon: 'img/types/water.webp',
+		color: 'bg-gray-700'
+	},
+
+	{
+		name: 'flying',
+		icon: 'img/types/water.webp',
+		color: 'bg-gray-700'
+	},
+
+	{
+		name: 'normal',
+		icon: '',
+		color: 'bg-gray-600'
+	},
+
+	{
+		name: 'ground',
+		icon: '',
+		color: 'bg-yellow-600'
+	},
+
+	{
+		name: 'grass',
+		icon: '',
+		color: 'bg-green-700'
+	},
+
+	{
+		name: 'fighting',
+		icon: '',
+		color: 'bg-red-700'
+	},
+
+	{
+		name: 'psychic',
+		icon: '',
+		color: 'bg-purple-600'
+	},
+
+	{
+		name: 'rock',
+		icon: '',
+		color: 'bg-yellow-800'
+	},
+
+	{
+		name: 'electric',
+		icon: '',
+		color: 'bg-yellow-500'
 	},
 	{
-		name: 'speed',
-		icon: 'speedIcon'
+		name: 'steel',
+		icon: '',
+		color: 'bg-gray-500'
+	},
+
+	{
+		name: 'ghost',
+		icon: '',
+		color: 'bg-gray-900'
+	},
+
+	{
+		name: 'ice',
+		icon: '',
+		color: 'bg-teal-500'
 	}
 ];
 function getIcon(statName: string) {

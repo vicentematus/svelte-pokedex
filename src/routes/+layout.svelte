@@ -1,7 +1,9 @@
 <script>
 	import Nav from '../components/nav.svelte';
 	import '../app.css';
+	import '@fontsource/press-start-2p';
 </script>
+
 
 <div class="bg-indigo-700 min-h-screen">
 	<Nav />
@@ -9,3 +11,7 @@
 		<slot />
 	</div>
 </div>
+
+<style>
+body { font-family: "Press Start 2P", cursive; }
+</style>

@@ -19,7 +19,7 @@
 	}
 </script>
 
-<h1 class="text-3xl  text-white font-semibold uppercase text-center">SVELTE KIT POKEDEX JAVIERA LANDIA</h1>
+<h1 class="text-3xl  text-white font-semibold uppercase text-center">SVELTE KIT POKEDEX</h1>
 <input
 	bind:value={searchTerm}
 	type="text"
