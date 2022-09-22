@@ -3,6 +3,7 @@
 ## Developing / Desarrollo
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
 Una vez instalado clonado elrepositorio e instalar las dependencias con `npm i` (o `pnpm install` o `yarn`), se inicializa el entorno de desarrollo con:
 
 ```bash
@@ -27,7 +28,11 @@ npm run build
 ## Proximamente...
 
 [ ] Agregar imagenes en vez de colores a los tipos de pokemon
+
 [ ] Agregar iconos en vez de texto a los tipos de stats
+
 [ ] Agregar SSR a la página de inicio
+
 [ ] Agregar font de 8 BIT
+
 [ ] Contribuir a fontsource.org

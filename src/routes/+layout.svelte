@@ -10,3 +10,9 @@
 		<slot />
 	</div>
 </div>
+
+<style>
+	:global(body) {
+		font-family: 'Press Start 2P', cursive;
+	}
+</style>
