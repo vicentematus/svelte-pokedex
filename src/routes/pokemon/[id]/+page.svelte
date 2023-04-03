@@ -14,7 +14,7 @@
 	const { name, sprites, stats } = pokemon;
 </script>
 
-<main class=" mx-auto  max-w-lg ">
+<main>
 	<img class="h-40 w-40 mx-auto" src={sprites?.front_default} alt={name} />
 	<h1 class="text-center text-3xl font-semibold text-white ">{capitalizeFirstLetter(name)}</h1>
 	<div class="space-x-2">
@@ -27,13 +27,15 @@
 		{/each}
 	</div>
 
-	<ul class="grid grid-cols-12 gap-4 mt-16">
+	<ul class="grid grid-cols-12 gap-4 mt-8">
 		{#each modifyStats as stat, i (i)}
 			<li
 				class="col-span-12 md:col-span-3 bg-white rounded-lg px-4 py-2 flex flex-col justify-center items-center"
 			>
-				{stat.icon}
-				<p class="uppercase font-semibold text-center">{stat.stat.name}</p>
+				<img src={`/img/types/${stat.icon}`} alt="icon of the stat" class="w-12 h-12" />
+				<p class="uppercase font-semibold text-center text-xs mt-2">
+					{stat.stat.name.replace('-', ' ')}
+				</p>
 				<p>{stat.base_stat}</p>
 			</li>
 		{/each}
