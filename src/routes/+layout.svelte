@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
 	import '@fontsource/press-start-2p';
-	import 'nes.css/css/nes.min.css';
 </script>
 
 <div class="bg-indigo-700 min-h-screen">

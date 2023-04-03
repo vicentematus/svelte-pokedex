@@ -2,7 +2,6 @@
 	import { pokemon } from '../stores/pokestore';
 	import '../app.css';
 	import PokemonCard from '../components/PokemonCard.svelte';
-	import { paginate, LightPaginationNav } from 'svelte-paginate';
 	let searchTerm = '';
 	let filteredPokemons: any = [];
 
@@ -27,7 +26,7 @@
 	bind:value={searchTerm}
 	placeholder="Search for example: Ivysaur, Squirtle"
 	type="text"
-	class="nes-input"
+	class="w-full rounded-md text-lg p-4 border-2 border-gray-200"
 />
 <div class="py-4 grid gap-4 md:grid-cols-2 lg:grid-cols-4 grid-cols-1">
 	{#each filteredPokemons as pokemon (pokemon.id)}

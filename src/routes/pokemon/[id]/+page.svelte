@@ -17,7 +17,7 @@
 <main>
 	<img class="h-40 w-40 mx-auto" src={sprites?.front_default} alt={name} />
 	<h1 class="text-center text-3xl font-semibold text-white ">{capitalizeFirstLetter(name)}</h1>
-	<div class="space-x-2">
+	<div class="space-x-2 mt-4">
 		{#each modifiedTypes as type (type.slot)}
 			<span
 				class={`shadow-md px-2 py-2 ${type.color} text-white  rounded-lg font-semibold uppercase`}
