@@ -13,7 +13,6 @@
 		"debugger": "NODE_OPTIONS=\"--inspect\" vite dev"
 	},
 	"devDependencies": {
-		"@steeze-ui/heroicons": "^2.2.2",
 		"@sveltejs/adapter-auto": "1.0.0-next.91",
 		"@sveltejs/adapter-vercel": "^2.4.1",
 		"@sveltejs/kit": "^1.15.0",
@@ -23,7 +22,6 @@
 		"eslint": "^8.37.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"lodash": "^4.17.21",
 		"postcss": "^8.4.21",
 		"prettier": "^2.8.7",
 		"prettier-plugin-svelte": "^2.10.0",
