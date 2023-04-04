@@ -30,5 +30,13 @@
 <style>
 	:global(body) {
 		font-family: 'Press Start 2P', cursive;
+		cursor: url('/img/pointer.png'), auto;
+	}
+	:global(a) {
+		cursor: url('/img/pointer.png'), auto;
+	}
+
+	:global(input) {
+		cursor: url('/img/pointer.png'), auto;
 	}
 </style>
