@@ -2,7 +2,6 @@
 	import { pokemon } from '../stores/pokestore';
 	import PokemonCard from '../components/PokemonCard.svelte';
 	import type { PokemonApi } from '../types/Pokemon';
-
 	let searchTerm = '';
 	let filteredPokemons: PokemonApi[] = [];
 
@@ -28,6 +27,6 @@
 />
 <div class="py-4 grid gap-4 md:grid-cols-2 lg:grid-cols-4 grid-cols-1">
 	{#each filteredPokemons.slice(0, 20) as pokemon (pokemon.id)}
-		<PokemonCard {pokemon} />
+		<PokemonCard {pokemon} on:click={() => status.set({ status: 'loading' })} />
 	{/each}
 </div>

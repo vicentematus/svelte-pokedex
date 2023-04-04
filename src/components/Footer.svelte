@@ -1,4 +1,4 @@
-<footer class="text-sm text-white flex flex-col items-center justify-center">
+<footer class="text-sm text-white flex flex-col items-center justify-center mt-12">
 	<div>
 		<a
 			class="inline-flex items-center hover:text-gray-300"

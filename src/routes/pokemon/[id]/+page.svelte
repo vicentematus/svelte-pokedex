@@ -1,16 +1,11 @@
 <script lang="ts">
 	import { capitalizeFirstLetter } from '$lib/capitalizeLetter';
-	import Stats from '$components/StatsCard/Stats.svelte';
-	//import icon component
-	import { Icon } from '@steeze-ui/svelte-icon';
 
-	//import as many icons from a Icon Pack
-	export let data: any;
+	export let data;
 
-	const { modifyStats, modifiedTypes } = data;
+	const { modifyStats, modifiedTypes, status } = data;
 
-	console.log('Modified types es', modifiedTypes);
-	const pokemon: any = data?.pokemon;
+	const pokemon = data?.pokemon;
 	const { name, sprites, stats } = pokemon;
 </script>
 

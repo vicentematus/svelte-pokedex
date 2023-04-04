@@ -172,6 +172,7 @@ export async function load({ params }) {
       pokemon,
       modifyStats,
       modifiedTypes,
+      status: "ok",
     };
   }
 
