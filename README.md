@@ -29,7 +29,7 @@ pnpm run build
 
 ```
 
-## Proximamente...
+## Future work 
 
 - [x] Add image instead of colors for the types of pokemons.
 - [x] Add Icons instead of text to the stats
