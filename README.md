@@ -2,37 +2,37 @@
 
 ## Developing / Desarrollo
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-Una vez instalado clonado elrepositorio e instalar las dependencias con `npm i` (o `pnpm install` o `yarn`), se inicializa el entorno de desarrollo con:
+First install pnpm as the package manager
 
 ```bash
-# con npm / with npm
-npm run dev
-
-# con yarn / with yarn
-yarn dev
+npm install -g pnpm
 ```
 
-## Production Enviroment / Entorno de Producción
+Then install the packages
 
-Para crear un entorno de producción de la aplicación solamente es necesario correr:
+```bash
+pnpm install 
+```
+
+Run the dev server
+
+```bash
+pnpm run dev 
+```
+
+## Production Enviroment 
 
 To create a production version of your app:
 
 ```bash
-npm run build
+pnpm run build
 
 ```
 
 ## Proximamente...
 
-[ ] Agregar imagenes en vez de colores a los tipos de pokemon
-
-[ ] Agregar iconos en vez de texto a los tipos de stats
-
-[ ] Agregar SSR a la página de inicio
-
-[ ] Agregar font de 8 BIT
-
-[ ] Contribuir a fontsource.org
+- [x] Add image instead of colors for the types of pokemons.
+- [x] Add Icons instead of text to the stats
+- [x] Add SSR to the index page 
+- [x] Add an 8 BIT
+- [x] Contribute to fontsource repo to add svelte kit docs.
